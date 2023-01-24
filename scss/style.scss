@@ -1,0 +1,27 @@
+@import 'zeroing';
+@import 'header';
+@import 'banner';
+@import 'content';
+@import 'footer';
+
+html .lock {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+a {
+    color: #333333;
+}

@@ -1,0 +1,140 @@
+.footer {
+  background: #F4F4F4;
+  margin-top: 96px;
+  padding: 36px 0 81px 0;
+}
+@media (min-width: 691px) and (max-width: 992px) {
+  .footer {
+    margin-top: 72px;
+  }
+}
+@media (max-width: 690px) {
+  .footer {
+    padding: 36px 0 0;
+    margin-top: 48px;
+  }
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (max-width: 992px) {
+  .footer__row {
+    flex-direction: column;
+  }
+}
+
+.nav__list {
+  display: flex;
+  width: 442px;
+  max-width: 100%;
+  height: 19px;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .nav__list {
+    width: 328px;
+    max-width: 100%;
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.contacts img {
+  margin-right: 10px;
+}
+@media (min-width: 541px) and (max-width: 992px) {
+  .contacts {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 540px) {
+  .contacts {
+    display: block;
+    margin-top: 18px;
+  }
+}
+.contacts-phone {
+  display: flex;
+  align-items: center;
+  margin-right: 63px;
+}
+@media (max-width: 992px) {
+  .contacts-phone {
+    margin-right: 24px;
+  }
+}
+@media (max-width: 540px) {
+  .contacts-phone {
+    margin-bottom: 15px;
+  }
+}
+.contacts-mail {
+  display: flex;
+  align-items: center;
+}
+
+.footer__bottom {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 541px) and (max-width: 992px) {
+  .footer__bottom {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 540px) {
+  .footer__bottom {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+.footer__bottom-copy p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #8D8D8D;
+}
+@media (max-width: 690px) {
+  .footer__bottom-copy p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (min-width: 541px) and (max-width: 992px) {
+  .footer__bottom-icons {
+    margin-top: -150px;
+  }
+}
+@media (max-width: 540px) {
+  .footer__bottom-icons {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+}
+.footer__bottom-icons a {
+  margin: 0 0 0 12px;
+}
+.footer__bottom-icons a:first-child {
+  margin: 0;
+}
+.footer__bottom-icons img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #8D8D8D;
+  border-radius: 50%;
+  padding: 12px 9px;
+}
+.footer__bottom-icons img:last-child {
+  margin: 0;
+}
